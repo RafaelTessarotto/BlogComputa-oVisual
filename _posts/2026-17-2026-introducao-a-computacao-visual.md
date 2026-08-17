@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Expectativas para Computação Visual"
+date: 2026-08-17
+categories: aula
+---
+
+Quando vi "Computação Visual" na grade de aula, fiquei meio confuso. Fui levado pela a acreditar palavra "visual" que seria sobre coisas que eu pensei que não veríamos durante o curso normal do Mackenzie. 
+
+Mas aí vi que o professor seria o Kishimoto. Nunca tive aula com ele anteriormente, mas eu participei do WTT com ele no semestre passado e sei do histórico dele com jogos, então pensei que poderia ter haver com gráficos de jogos e renderização. 
+
+Chegou o dia da aula e ele explicou a matéria na aula e, pra falar a verdade, eu continuo meio confuso sobre o que a gente vai ver no dia a dia. Mas pelo que eu entender, a disciplina vai ser meio que um curso introdutório, onde a gente vai ver um pouquinho de três matérias diferentes (Computação Gráfica, Image Processing e Computer Vision). 
+
+E também ainda estou com um pouco de medo do que vemos ver nessa matéria, mas vamos ver no que dá!
