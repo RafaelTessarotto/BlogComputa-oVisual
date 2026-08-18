@@ -1,6 +1,3 @@
----
-layout: home
-title: "Início"
----
-
-Aqui estão as minhas anotações e trabalhos da aula de Computação Visual.
+title: "Blog de Computação Visual"
+description: "Página para a disciplina de Computação Visual"
+theme: minima
