@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Como uma imagem é formada: Pixels, RGB e Tons de Cinza"
+date: 2026-09-01
+---
+
+Depois daquelas dúvidas iniciais sobre o que veríamos em Computação Visual, começamos a entrar de vez na parte técnica. A aula sobre formação de imagens esclareceu bastante coisa e me fez ver que a teoria se conecta muito com o que a gente acaba usando na prática.
+
+### O que é um Pixel?
+Quando começamos a destrinchar como uma imagem aparece na tela, a primeira coisa que me veio à mente foram os sprites que costumo desenhar no LibreSprite para colocar nos projetos da Godot, ou até mesmo os blocos de LEGO nas minhas montagens. No fundo, a lógica é exatamente a mesma. 
+
+Uma imagem digital nada mais é do que um gigantesco mosaico formado por milhares (ou milhões) de bloquinhos indivisíveis chamados de **pixels** (*Picture Element*). Cada pixel é um quadradinho que exibe apenas uma única cor sólida. Quando você coloca todos eles lado a lado, minúsculos na tela do monitor, nosso cérebro junta tudo e enxerga a imagem completa.
+
+### Como as cores funcionam: O padrão RGB
+Mas como o computador sabe qual cor colocar em cada um desses milhares de quadradinhos? É aí que entra o famoso modelo **RGB** (Red, Green, Blue - Vermelho, Verde e Azul).
+
+Pense que dentro de cada pixel da sua tela existem três "luzinhas" minúsculas, uma de cada dessas três cores. O computador controla a intensidade de cada uma delas em uma escala que vai de **0 a 255**. 
+* Se você deixar o Red no máximo (255) e desligar o Green (0) e o Blue (0), o pixel fica totalmente vermelho.
+* Se você ligar todas as três luzes no máximo (R: 255, G: 255, B: 255), a mistura de todas elas gera a luz branca.
+* Misturando diferentes intensidades (por exemplo, bastante vermelho com um pouco de verde e nenhum azul), você consegue formar praticamente qualquer cor que os nossos olhos conseguem perceber.
+
+### E as imagens em Preto e Branco?
+Nas imagens em tons de cinza (*grayscale*), as coisas ficam ainda mais simples e ocupam menos espaço na memória. Em vez de o computador precisar processar três canais diferentes (R, G e B) para cada pixel, ele usa apenas um canal de intensidade luminosa.
+
+Essa intensidade também é medida de 0 a 255. A regra é bem direta:
+* **0:** Nenhuma luz (Preto absoluto).
+* **255:** Luz máxima (Branco absoluto).
+* **Valores intermediários (ex: 128):** Diferentes tons de cinza.
+
+Se você tentar fazer uma imagem ficar em tons de cinza usando o padrão RGB, é só garantir que os três canais tenham exatamente o mesmo valor. Por exemplo, um pixel com R:100, G:100 e B:100 vai ser um cinza escuro.
+
+Foi bem interessante entender os bastidores matemáticos de como a luz e a cor são traduzidas para a tela!
